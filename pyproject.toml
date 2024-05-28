@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "spotify-database-project"
+version = "0.1.0"
+description = "A project to manage Spotify database"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "setup"}]  # Updated to include the correct directory
+
+[tool.poetry.dependencies]
+python = "^3.10"
+prettytable = "^3.10.0"  # Update to the latest version if needed
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
